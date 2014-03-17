@@ -1,0 +1,31 @@
+{
+  "name": "cityowls-api",
+  "version": "0.0.1",
+  "description": "cityowls api i",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/cityowls-api.git"
+  },
+  "keywords": [
+    "node.js",
+    "api",
+    "cityowls"
+  ],
+  "author": "Doron Segal",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/doron2402/cityowls-api/issues"
+  },
+  "dependencies": {
+    "knex": "~0.5.8",
+    "bookshelf": "~0.6.8",
+    "lodash": "~2.4.1",
+    "grunt": "~0.4.4",
+    "good": "~1.0.0",
+    "mysql": "~2.1.1"
+  }
+}
