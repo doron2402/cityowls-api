@@ -4,7 +4,9 @@
   "description": "cityowls api i",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
     "lodash": "~2.4.1",
     "grunt": "~0.4.4",
     "good": "~1.0.0",
-    "mysql": "~2.1.1"
-  }
+    "mysql": "~2.1.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
